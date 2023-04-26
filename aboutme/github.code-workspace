@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../Programming/Intro Building Blocks"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "wdd130"
+	}
+}
