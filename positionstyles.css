@@ -172,7 +172,7 @@ z-index: 4;
 width: 200px; 
 height: 400px; 
 background-color: gold; 
-grid-column: 5/7;
+grid-column: 4/6;
 grid-row: 3/7;
 z-index: 4;
 } 
