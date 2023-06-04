@@ -1,3 +1,13 @@
 p{
     width: 50%;
 }
+
+img{
+    max-width: 100%;
+}
+
+@media screen and (mini-width: 760px) {
+    img{
+        max-width: 50%;
+    }
+}
