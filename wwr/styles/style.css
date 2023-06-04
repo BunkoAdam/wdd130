@@ -178,7 +178,7 @@ nav {
     margin-top: 100px;
 }
 
-#home-grid{
+.home-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
@@ -196,7 +196,7 @@ nav {
 .camping-card {
     margin: 200px 0;
     grid-column: 5/7;
-    grid-column: 2/3
+    grid-row: 2/3
 }
 
 .rapids-card {
