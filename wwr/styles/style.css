@@ -296,6 +296,84 @@ form {
     margin-top: 3em;
 }
 
+/*Start of Page2 styling */
+
+.Rivers{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.RiversHeading{
+    padding-bottom: 50px;
+    font-family: "Permanent Marker";
+    color: gray;
+    grid-column: 2/3;
+    font-size: 35px;
+}
+
+.Salmon{
+    border: 5px solid palegoldenrod;
+    font-family: "per";
+    font-family: Roboto, Helvetica, sans-serif;
+    padding-left: 25px;
+    padding-right: 25px;
+    grid-column: 1/2;
+}
+
+.HSalmon{
+    font-family: "Permanent Marker";
+    color: gray;
+}
+
+.Spic{
+    margin: 50px 0;
+    width: 350px;
+    height: auto;
+}
+
+.Desolation{
+    border: 5px solid palegoldenrod;
+    font-family: Roboto, Helvetica, sans-serif;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    grid-column: 2/3;
+}
+
+.HDesolation{
+    font-family: "Permanent Marker";
+    color: gray;
+}
+
+.Dpic{
+    margin-left: 50px 0;
+    margin-right: 50px 0;
+    margin-top: 400px 0;
+}
+
+.Grand{
+    border: 5px solid palegoldenrod;
+    font-family: Roboto, Helvetica, sans-serif;
+    padding-left: 25px;
+    padding-right: 25px;
+    grid-column: 3/4;
+}
+
+.HGrand{
+    font-family: "Permanent Marker";
+    color: gray;
+}
+
+.Gpic{
+    margin: 50px 0;
+    width: 350px;
+    height: auto;
+}
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
