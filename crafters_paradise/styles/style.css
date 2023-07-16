@@ -311,8 +311,8 @@ nav {
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: auto auto auto;
-    padding-left: 45px;
-    padding-right: 70px;
+    padding-left: 100px;
+    padding-right: 45px;
 }
 
 #one{
