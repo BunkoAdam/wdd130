@@ -225,56 +225,80 @@ nav {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto auto auto;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .TfirstP{
     grid-column: 1;
     grid-row: 1;
+    padding-right: 20px;
+    padding-top: 40px;
 }
 
 #torch{
     grid-column: 2;
     grid-row: 1;
+    padding-left: 120px;
+    padding-top: 20px;
 }
 
 .TsecondP{
     grid-column: 2;
     grid-row: 2;
+    padding-left: 20px;
+    padding-top: 80px;
 }
 
 #waterbucket{
     grid-column: 1;
     grid-row: 2;
+    padding-right: 20px;
+    padding-left: 40px;
+    padding-top: 40px;
 }
 
 .TthirdP{
     grid-column: 1;
     grid-row: 3;
+    padding-right: 20px;
+    padding-top: 90px;
 }
 
 #enchanting{
     grid-column: 2;
     grid-row: 3;
+    padding-left: 70px;
+    padding-top: 60px;
 }
 
 .TfourthP{
     grid-column: 2;
     grid-row: 4;
+    padding-left: 20px;
+    padding-top: 120px;
 }
 
 #branchmining{
     grid-column: 1;
     grid-row: 4;
+    padding-right: 20px;
+    padding-left: 40px;
+    padding-top: 80px;
 }
 
 .TfifthP{
     grid-column: 1;
     grid-row: 5;
+    padding-right: 20px;
+    padding-top: 130px;
 }
 
 #netherportalnetwork{
     grid-column: 2;
     grid-row: 5;
+    padding-left: 70px;
+    padding-top: 100px;
 }
 
 
