@@ -21,22 +21,37 @@
         </nav>
      </header>
      <div id="hero">
-
+        <div id="hero-box">
+            <img id="hero-img" src="images/steve_sunset.jpg" alt="Realistic_homepage">
+        </div>
         <section id="hero-msg">
-            <h1 class="home-title-3">CraftersParadise Gallary</h1>
+            <h1 class="home-title">Welcome to CraftersParadise!</h1>
+            <h4>The only place to learn and share Minecraft </h4>
         </section>
      </div>
-     <main class="gallary-grid">
-        <img id="one" src="images/Gallery_1.jpg" alt="lit_up_night_with_torches" width="100%" height="100%">
-        <img id="two" src="images/Gallery_2.jpg" alt="lit_up_night_with_torches" width="100%" height="100%">
-        <img id="three" src="images/gallery3.jpg" alt="lit_up_night_with_torches" width="100%" height="100%">
-        <img id="four" src="images/gallery4.avif" alt="lit_up_night_with_torches" width="100%" height="100%">
-        <img id="five" src="images/gallery5.webp" alt="lit_up_night_with_torches" width="100%" height="100%">
-        <img id="six" src="images/gallery6.webp" alt="lit_up_night_with_torches" width="100%" height="100%">
-        <img id="seven" src="images/gallery7.jpg" alt="lit_up_night_with_torches" width="100%" height="100%">
-        <img id="eight" src="images/gallery8.jpg" alt="lit_up_night_with_torches" width="100%" height="100%">
-        <img id="nine" src="images/gallery9.png" alt="lit_up_night_with_torches" width="100%" height="100%">
-     </main> 
+     <main>
+        <div id="feedback"></div>
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+              <li>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name" />
+              </li>
+              <li>
+                <label for="mail">Email:</label>
+                <input type="email" id="mail" name="user_email" />
+              </li>
+              <li>
+                <label for="msg">Message:</label>
+                <textarea id="msg" name="user_message"></textarea>
+                </li>
+                <li class="button">
+                    <label>&nbsp;</label>
+                    <button type="submit">Send your message</button>
+              </li>
+            </ul>
+          </form>
+     </main>
      <footer>
         <p>CraftersParadise &copy; 2023 - Adam Schwartz</p>
         <p><a href="site-plan.html">Site Plan</a></p>
